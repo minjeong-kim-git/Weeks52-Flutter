@@ -30,6 +30,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  provider: ^5.0.0
   carousel_slider: #^4.0.0 캐러셀 라이브러리
 
 
@@ -68,6 +69,27 @@ flutter:
     - assets/image/paris_image1.jpg
     - assets/image/paris_image2.jpg
     - assets/image/paris_image3.jpg
+    - assets/image/movie0.jpg
+    - assets/image/movie1.jpg
+    - assets/image/movie2.jpg
+    - assets/image/movie3.jpg
+    - assets/image/movie4.jpg
+    - assets/image/movie5.jpg
+    - assets/image/movie6.jpg
+    - assets/image/movie7.jpg
+    - assets/image/movie8.jpg
+    - assets/image/movie9.jpg
+    - assets/image/movie10.jpg
+    - assets/image/movie11.jpg
+    - assets/image/elemental1.jpeg
+    - assets/image/elemental2.jpeg
+    - assets/image/elemental3.jpeg
+    - assets/image/elemental4.jpeg
+    - assets/image/elemental5.jpeg
+    - assets/image/actor0.jpeg
+    - assets/image/actor1.jpeg
+    - assets/image/actor2.jpeg
+    - assets/image/actor3.jpeg
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in

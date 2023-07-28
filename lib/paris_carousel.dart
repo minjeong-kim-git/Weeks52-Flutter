@@ -4,10 +4,12 @@ import 'package:carousel_slider/carousel_slider.dart';
 class ParisCarousel extends StatelessWidget {
   // 파리에 해당하는 여러 이미지 경로를 리스트로 정의
   final List<String> parisImages = [
-    'assets/image/paris_image1.jpg',
-    'assets/image/paris_image2.jpg',
-    'assets/image/paris_image3.jpg',
-    // 여기에 더 많은 파리 이미지 경로 추가
+    'assets/image/elemental1.jpeg',
+    'assets/image/elemental2.jpeg',
+    'assets/image/elemental3.jpeg',
+    'assets/image/elemental4.jpeg',
+    'assets/image/elemental5.jpeg',
+    // 여기에 더 많은 영화 이미지 경로 추가
   ];
 
   @override

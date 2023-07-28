@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'paris_carousel.dart';
+import 'actor.dart';
 
 class TravelDetailPage extends StatelessWidget {
   final String travelDestination;
   final String imageAssetPath; // 이미지 경로 저장
   final String travelDescription;
+  final String genre;
 
   TravelDetailPage({
     required this.travelDestination,
     required this.imageAssetPath,
     required this.travelDescription,
+    required this.genre,
   });
 
   @override
@@ -36,15 +39,31 @@ class TravelDetailPage extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 10),
+              Text(
+                '$genre',
+                style: TextStyle(
+                  fontSize: 12,
+                  fontWeight: FontWeight.normal,
+                ),
+              ),
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Text(
-                  '$travelDescription', // 여행지에 대한 설명 갖고 오기
+                  '$travelDescription', // 영화 줄거리에 대한 설명 갖고 오기
                 ),
               ),
               SizedBox(height: 20),
               Text(
-                '테마별 여행지',
+                '출연진',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              ActorGridView(),
+              SizedBox(height: 20),
+              Text(
+                '영상/포토',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
